@@ -93,6 +93,7 @@
                 android:layout_margin="2sp"
                 android:weightSum="4"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
 
                 <com.google.android.material.button.MaterialButton
@@ -102,11 +103,9 @@
                     android:backgroundTint="@color/black"
                     android:text="7"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_4"
@@ -115,11 +114,9 @@
                     android:backgroundTint="@color/black"
                     android:text="4"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_1"
@@ -128,11 +125,9 @@
                     android:backgroundTint="@color/black"
                     android:text="1"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_0"
@@ -141,11 +136,9 @@
                     android:backgroundTint="@color/black"
                     android:text="0"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
             </LinearLayout>
 
@@ -158,6 +151,7 @@
                 android:layout_margin="2sp"
                 android:weightSum="4"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
 
                 <com.google.android.material.button.MaterialButton
@@ -167,11 +161,8 @@
                     android:backgroundTint="@color/black"
                     android:text="8"
                     android:textStyle="bold"
-                    android:textSize="30dp"
-
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    android:textSize="30sp"
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_5"
@@ -180,11 +171,9 @@
                     android:backgroundTint="@color/black"
                     android:text="5"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_2"
@@ -195,9 +184,7 @@
                     android:textStyle="bold"
                     android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_plus_minus"
@@ -206,11 +193,9 @@
                     android:backgroundTint="@color/black"
                     android:text="+/-"
                     android:textStyle="bold"
-                    android:textSize="26sp"
+                    android:textSize="19sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
             </LinearLayout>
 
@@ -222,6 +207,7 @@
                 android:layout_margin="2sp"
                 android:weightSum="4"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
 
                 <com.google.android.material.button.MaterialButton
@@ -231,11 +217,9 @@
                     android:backgroundTint="@color/black"
                     android:text="9"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_6"
@@ -244,7 +228,7 @@
                     android:backgroundTint="@color/black"
                     android:text="6"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
                     >
 
@@ -257,11 +241,9 @@
                     android:backgroundTint="@color/black"
                     android:text="3"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_dot"
@@ -270,12 +252,10 @@
                     android:backgroundTint="@color/black"
                     android:text="."
                     android:textStyle="bold"
-                    android:textSize="40dp"
+                    android:textSize="40sp"
 
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
             </LinearLayout>
 
@@ -287,20 +267,19 @@
                 android:layout_margin="2sp"
                 android:weightSum="4"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_all_clear"
-                    android:layout_width="75dp"
+                    android:layout_width="match_parent"
                     android:layout_height="75dp"
-                    android:backgroundTint="#009688"
+                    android:backgroundTint="#0BBA11"
                     android:text="AC"
+                    android:textSize="19sp"
                     android:textStyle="bold"
-                    android:textSize="20dp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_divide"
@@ -311,9 +290,7 @@
                     android:textStyle="bold"
                     android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_plus"
@@ -321,12 +298,10 @@
                     android:layout_height="75dp"
                     android:backgroundTint="#009688"
                     android:text="+"
+                    android:textSize="30sp"
                     android:textStyle="bold"
-                    android:textSize="30dp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_EXP"
@@ -335,11 +310,9 @@
                     android:backgroundTint="#009688"
                     android:text="EXP"
                     android:textStyle="bold"
-                    android:textSize="20sp"
+                    android:textSize="14sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                   />
 
             </LinearLayout>
 
@@ -351,6 +324,7 @@
                 android:layout_margin="2sp"
                 android:weightSum="4"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
 
                 <com.google.android.material.button.MaterialButton
@@ -360,11 +334,9 @@
                     android:backgroundTint="#BF1D1D"
                     android:text="DEL"
                     android:textStyle="bold"
-                    android:textSize="20dp"
+                    android:textSize="15sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_multiply"
@@ -373,11 +345,9 @@
                     android:backgroundTint="#009688"
                     android:text="*"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_minus"
@@ -386,11 +356,9 @@
                     android:backgroundTint="#009688"
                     android:text="-"
                     android:textStyle="bold"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
 
-                    >
-
-                </com.google.android.material.button.MaterialButton>
+                    />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_equal"
@@ -399,11 +367,129 @@
                     android:backgroundTint="#009688"
                     android:text="="
                     android:textStyle="bold"
-                    android:textSize="35dp"
+                    android:textSize="35sp"
 
-                    >
+                    />
 
-                </com.google.android.material.button.MaterialButton>
+            </LinearLayout>
+
+
+
+<!--           Sin cos-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="2sp"
+                android:weightSum="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_sin"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="sin"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cos"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="cos"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_tan"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="tan"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cot"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="cot"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="2sp"
+                android:weightSum="4"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_sec"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="sec"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cosec"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="cosec"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_tan"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="tan"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cot"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:backgroundTint="@color/black"
+                    android:text="cot"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+
+                    />
 
             </LinearLayout>
 
